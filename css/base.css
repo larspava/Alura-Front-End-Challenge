@@ -1,0 +1,46 @@
+:root {
+    /*CORES*/
+    --azul1: #051D3B;
+    --azul2: #5081FB;
+    --azul3: #7BA4FC;
+    --azul4: #96B9FD;
+}
+
+body {
+    background: #051D3B;
+    margin: 2rem;
+}
+
+.principal{
+    display: flex;
+}
+
+.texto__titulo {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.texto__body {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.texto__sidebar{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+

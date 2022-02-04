@@ -1,0 +1,31 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 100%;
+}
+
+li {
+    margin-top: 1rem;
+    display:flex;
+    align-items: center;
+}
+
+.menu__quadrado {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azul2);
+    border-radius: 16px;
+    margin-right: 1rem;
+}
+
+/*.menu__editor_fundo{
+
+}*/
+
+.menu__comunidade_fundo{
+    background: rgba(80, 129, 251, 0.16);    
+}

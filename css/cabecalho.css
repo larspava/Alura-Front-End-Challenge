@@ -1,0 +1,25 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.cabecalho__barra {
+    width: 45rem;
+    height: 1.5rem;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.cabecalho__perfil {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__perfil_foto {
+    width: 2rem;
+    height: 2rem;
+    margin: .5rem;
+}

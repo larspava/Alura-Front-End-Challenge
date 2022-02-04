@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>AluraDEV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/editor.css">
+    <link rel="stylesheet" href="css/campos.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/logo_aluradev.svg" alt="Logo da AluraDEV" class="cabecalho__logo">
+        <input type="text" class="cabecalho__barra texto__body" placeholder="Busque por algo">
+        <div class="cabecalho__perfil">
+            <img src="img/foto_perfil.png" alt="Foto de perfil" class="cabecalho__perfil_foto">
+            <text class="cabecalho__perfil_nome texto__body">Harry</text>
+        </div>
+    </header>
+    <main class="principal">
+
+        <section class="menu">
+            <text class="menu__titulo texto__sidebar">MENU</text>
+            <ul>
+                <li>
+                    <div class="menu__editor_fundo menu__quadrado">
+                        <img src="img/menu_editor.svg" alt="Logo editor de código" class="menu__editor_logo">
+                    </div>
+                    <text class="menu__editor_texto texto__body">Editor de código</text>
+                </li>
+                <li>
+                    <div class="menu__comunidade_fundo menu__quadrado">
+                        <img src="img/menu_comunidade.svg" alt="Logo da comunidade" class="menu__comunidade_logo">
+                    </div>
+                    <text class="menu__comunidade_texto texto__body">Comunidade</text>
+                </li>
+            </ul>
+        </section>
+
+        <section class="editor">
+            <div class="editor__borda">
+                <div class="editor__fundo">
+                    <div class="editor__bola"></div>
+                    <div class="editor__bola"></div>
+                    <div class="editor__bola"></div>
+                    <div class="editor__caixa_texto">
+                        <text class="editor__texto texto__body">Digite seu texto aqui</text>
+                    </div>
+                </div>
+            </div>
+            <button class="editor__botao texto__body">Visualizar com o Highlight</button>
+        </section>
+
+        <section class="campos">
+            <text class="campos__projeto_titulo texto__sidebar">SEU PROJETO</text>
+            <input type="text" class="campos__projeto_nome" placeholder="Nome do seu projeto">
+            <input type="text" class="campos__projeto_descricao" placeholder="Descrição do seu projeto">
+            <text class="campos__personalizacao_titulo texto__sidebar">PERSONALIZAÇÃO</text>
+            <select class="campos__personalizacao_selecao">
+                <option value="py">Python</option>
+                <option value="js" selected>JavaScript</option>
+                <option value="html">HTML5</option>
+            </select>
+            <div class="campos__personalizacao_cor_borda">
+                <div class="campos__personalizacao_cor"></div>
+                </div>
+            </div>
+            <button class="campos__botao">Salvar Projeto</button>
+        </section>
+
+    </main>
+</body>
+</html>

@@ -16,6 +16,12 @@
 .cabecalho__perfil {
     display: flex;
     align-items: center;
+    padding-right: 10px;
+}
+
+.cabecalho__perfil:hover{
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
 }
 
 .cabecalho__perfil_foto {

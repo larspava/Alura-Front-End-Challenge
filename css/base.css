@@ -44,3 +44,30 @@ body {
     color: #FFFFFF;
 }
 
+.botao__filled:hover {
+    background: #7BA4FC;
+}
+
+.botao__filled:active {
+    border: 4px solid #5081FBB8;
+}
+
+.botao__outlined:hover {
+    background: #5081FB29;
+}
+
+.botao__outlined:active {
+    border: 4px solid #5081FB3D;
+}
+
+.campo__selecao:hover{
+    background: #FFFFFF3D;
+}
+
+.menu__menu:hover{
+    opacity: 64%;
+}
+
+.menu__menu:active{
+    opacity:100%;
+}

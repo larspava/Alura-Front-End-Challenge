@@ -22,10 +22,22 @@ li {
     margin-right: 1rem;
 }
 
-/*.menu__editor_fundo{
-
-}*/
+.menu__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .menu__comunidade_fundo{
-    background: rgba(80, 129, 251, 0.16);    
+    background: #5081FB29;
+    opacity: 56%;
+}
+
+.menu__comunidade_texto{
+    opacity: 56;
+}
+
+.menu__comunidade_fundo:active{
+    background: #5081FB;
+    opacity: 100%;
 }

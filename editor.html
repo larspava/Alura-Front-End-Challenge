@@ -17,7 +17,7 @@
 <body>
     <header class="cabecalho">
         <img src="img/logo_aluradev.svg" alt="Logo da AluraDEV" class="cabecalho__logo">
-        <input type="text" class="cabecalho__barra texto__body" placeholder="Busque por algo">
+        <input type="text" class="cabecalho__barra texto__body campo__selecao" placeholder="Busque por algo">
         <div class="cabecalho__perfil">
             <img src="img/foto_perfil.png" alt="Foto de perfil" class="cabecalho__perfil_foto">
             <text class="cabecalho__perfil_nome texto__body">Harry</text>
@@ -29,16 +29,20 @@
             <text class="menu__titulo texto__sidebar">MENU</text>
             <ul>
                 <li>
-                    <div class="menu__editor_fundo menu__quadrado">
-                        <img src="img/menu_editor.svg" alt="Logo editor de código" class="menu__editor_logo">
+                    <div class="menu__menu">
+                        <div class="menu__editor_fundo menu__quadrado">
+                            <img src="img/menu_editor.svg" alt="Logo editor de código" class="menu__editor_logo">
+                        </div>
+                        <text class="menu__editor_texto texto__body">Editor de código</text>
                     </div>
-                    <text class="menu__editor_texto texto__body">Editor de código</text>
                 </li>
                 <li>
-                    <div class="menu__comunidade_fundo menu__quadrado">
-                        <img src="img/menu_comunidade.svg" alt="Logo da comunidade" class="menu__comunidade_logo">
+                    <div class="menu__menu">
+                        <div class="menu__comunidade_fundo menu__quadrado">
+                            <img src="img/menu_comunidade.svg" alt="Logo da comunidade" class="menu__comunidade_logo">
+                        </div>
+                        <text class="menu__comunidade_texto texto__body">Comunidade</text>
                     </div>
-                    <text class="menu__comunidade_texto texto__body">Comunidade</text>
                 </li>
             </ul>
         </section>
@@ -54,15 +58,15 @@
                     </div>
                 </div>
             </div>
-            <button class="editor__botao texto__body">Visualizar com o Highlight</button>
+            <button class="editor__botao texto__body botao__outlined">Visualizar com o Highlight</button>
         </section>
 
         <section class="campos">
             <text class="campos__projeto_titulo texto__sidebar">SEU PROJETO</text>
-            <input type="text" class="campos__projeto_nome" placeholder="Nome do seu projeto">
-            <input type="text" class="campos__projeto_descricao" placeholder="Descrição do seu projeto">
+            <input type="text" class="campos__projeto_nome campo__selecao" placeholder="Nome do seu projeto">
+            <input type="text" class="campos__projeto_descricao campo__selecao" placeholder="Descrição do seu projeto">
             <text class="campos__personalizacao_titulo texto__sidebar">PERSONALIZAÇÃO</text>
-            <select class="campos__personalizacao_selecao">
+            <select class="campos__personalizacao_selecao campo__selecao">
                 <option value="py">Python</option>
                 <option value="js" selected>JavaScript</option>
                 <option value="html">HTML5</option>
@@ -71,7 +75,7 @@
                 <div class="campos__personalizacao_cor"></div>
                 </div>
             </div>
-            <button class="campos__botao">Salvar Projeto</button>
+            <button class="campos__botao botao__filled">Salvar Projeto</button>
         </section>
 
     </main>

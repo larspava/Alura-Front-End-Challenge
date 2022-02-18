@@ -41,3 +41,16 @@ li {
     background: #5081FB;
     opacity: 100%;
 }
+
+@media screen and (max-width:480px) {
+    .menu{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:1023px){
+    .menu{
+        display: none;
+    }
+}

@@ -62,3 +62,15 @@
     border-radius: 8px;
     border: none;
 }
+
+@media screen and (max-width:480px){
+    .editor{
+        width: 100%;
+    }  
+}
+
+@media screen and (max-width:1023px){
+    .editor{
+        width: 100%;
+    }  
+}

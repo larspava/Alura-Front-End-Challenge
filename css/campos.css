@@ -64,3 +64,19 @@
     border: none;
     color: #051D3B;
 }
+
+@media screen and (max-width: 480px) {
+    .campos{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 2.5rem;
+    } 
+}
+
+@media screen and (max-width: 1023px) {
+    .campos{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 2.5rem;
+    }
+}

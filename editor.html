@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/editor.css">
     <link rel="stylesheet" href="css/campos.css">
     <link rel="stylesheet" href="css/cartoes.css">
+    <link rel="stylesheet" href="css/dracula.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -61,7 +62,7 @@
                     <div class="editor__bola"></div>
                     <div class="editor__bola"></div>
                     <div class="editor__caixa_texto">
-                        <textarea class="cartao__codigo_texto texto__codigo" placeholder="insira o código aqui"></textarea>
+                        <code class="preview hljs texto__codigo" contenteditable="true" aria-label="Editor de código">Digite aqui o código</code>
                     </div>
                 </div>
             </div>
@@ -88,5 +89,8 @@
     </main>
 
     <script src="components/trocaCor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="components/highlight.js"></script>
+    <script>hljs.highlightAll()</script>
 </body>
 </html>

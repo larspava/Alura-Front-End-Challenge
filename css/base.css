@@ -44,6 +44,17 @@ body {
     color: #FFFFFF;
 }
 
+.texto__codigo{
+    font-family: Roboto Mono;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
 .botao__filled:hover {
     background: #7BA4FC;
 }

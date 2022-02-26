@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/editor.css">
     <link rel="stylesheet" href="css/campos.css">
+    <link rel="stylesheet" href="css/cartoes.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -43,9 +44,11 @@
                 <li>
                     <div class="menu__menu">
                         <div class="menu__comunidade_fundo menu__quadrado">
+                            <a href="comunidade.html" style="text-decoration:none">
                             <img src="img/menu_comunidade.svg" alt="Logo da comunidade" class="menu__comunidade_logo">
                         </div>
                         <text class="menu__comunidade_texto texto__body">Comunidade</text>
+                        </a>
                     </div>
                 </li>
             </ul>
@@ -58,7 +61,7 @@
                     <div class="editor__bola"></div>
                     <div class="editor__bola"></div>
                     <div class="editor__caixa_texto">
-                        <text class="editor__texto texto__body">Digite seu texto aqui</text>
+                        <textarea class="cartao__codigo_texto texto__codigo" placeholder="insira o código aqui"></textarea>
                     </div>
                 </div>
             </div>
@@ -83,5 +86,7 @@
         </section>
 
     </main>
+
+    <script src="components/trocaCor.js"></script>
 </body>
 </html>

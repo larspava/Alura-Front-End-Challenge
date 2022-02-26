@@ -1,0 +1,123 @@
+.cartoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+.cartao__1{
+    display: flex;
+    flex-direction: column;
+    background: #00000029;
+    border-radius: 8px;
+}
+
+.cartao__fundo{
+    display: flex;
+    height: 288px;
+    width: 520px;
+    border-radius: 8px;
+    padding: 24px;
+    background: #9AFF6B;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao__codigo{
+    height: 240px;
+    width: 472px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
+    padding: 12px;
+    background: #141414;
+}
+
+.cartao__codigo_bolas{
+    display: flex;
+    height: 12px;
+}
+
+.cartao__codigo_bola1{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background: #FF5F56;
+}
+
+.cartao__codigo_bola2{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background: #FFBD2E;
+    margin-left: 6px;
+}
+
+.cartao__codigo_bola3{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background: #27C93F;
+    margin-left: 6px;
+}
+
+.cartao__codigo_texto{
+    background-color: #141414;
+    border: none;
+    resize: none;
+    width: 98%;
+    height: 90%;
+}
+
+
+.cartao__itens{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cartao__titulo{
+    margin: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.cartao__descricao{
+    margin: 0.5rem 1.5rem 0 1.5rem;
+}
+
+.cartao__icones{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.cartao__comentarios{
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao__comentarios_numero{
+    margin-left: 10px;
+}
+
+.cartao__likes{
+    align-items: center;
+    justify-content: center;
+    margin-left: 18px;
+}
+
+.cartao__likes_numero{
+    margin-left: 10px;
+}
+
+.cartao__perfil{
+    display: flex;
+    margin-left: auto;
+}
+
+.cartao__perfil_foto{
+    width: 24px;
+    height: 24px;
+}
+
+.cartao__perfil_nome{
+    margin-left: 0.5rem;
+}

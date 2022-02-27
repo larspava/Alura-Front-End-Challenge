@@ -1,0 +1,56 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 100%;
+}
+
+li {
+    margin-top: 1rem;
+    display:flex;
+    align-items: center;
+}
+
+.menu__quadrado {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azul2);
+    border-radius: 16px;
+    margin-right: 1rem;
+}
+
+.menu__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__editor_fundo{
+    background: #5081FB29;
+    opacity: 56%;
+}
+
+.menu__editor_texto{
+    opacity: 56;
+}
+
+.menu__editor_fundo:active{
+    background: #5081FB;
+    opacity: 100%;
+}
+
+@media screen and (max-width:480px) {
+    .menu{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:1023px){
+    .menu{
+        display: none;
+    }
+}

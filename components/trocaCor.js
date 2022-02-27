@@ -9,9 +9,6 @@ function mudarCor(){
     botaoCor.style.background = corOpcoes[contador]
     editorBorda.style.background = corOpcoes[contador]
 
-    console.log(contador)
-    console.log(corOpcoes[contador])
-
     if (contador == 4){
         contador = -1
     }
